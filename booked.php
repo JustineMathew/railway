@@ -1,5 +1,5 @@
 <html>
-<body style=" background-image: url(adminlogin.jpeg);
+<body style=" background-color:#FDF5E6;
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;

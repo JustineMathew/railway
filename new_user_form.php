@@ -1,5 +1,13 @@
 <html>
-<body style=" background-image: url(userlogin.png);
+<head>
+<style>
+        body{
+                background-image:url("https://cdn.pixabay.com/photo/2012/10/25/23/18/train-62849_1280.jpg");
+                font-color:black;
+        }
+</style>
+</head>
+<body style="
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;

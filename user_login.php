@@ -1,5 +1,5 @@
 <html>
-<body style=" background-image: url(userlogin.png);
+<body style=" background-color:#FFF0F5;
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;

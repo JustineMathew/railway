@@ -1,5 +1,14 @@
 <html>
-<body style=" background-image: url(adminlogin.jpeg);
+<head>
+<style>
+body{
+        background-image: url("https://png.pngtree.com/background/20210711/original/pngtree-creative-synthetic-atmospheric-railway-background-picture-image_1075537.jpg");
+
+
+</style>
+</head>
+
+<body style=" 
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;

@@ -1,5 +1,13 @@
 <html>
-<body style=" background-image: url(pnglogin.jpg);
+<head>
+<style>
+        body{
+                background-color:#FDF5E6;
+                font-color:black;
+        }
+</style>
+</head>
+<body style="
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -40,8 +48,34 @@ If you wish to proceed with booking fill in the following details:<br><br>
 <form action="resvn.php" method="post">
 Registered Mobile No: <input type="text" name="mno" required><br><br>
 Password: <input type="password" name="password" required><br><br>
-Enter Train No: <input type="text" name="tno" required><br><br>
-Enter Class: <input type="text" name="class" required><br><br>
+Enter Train No:
+<select name="tno" required width="200" style="width: 200px">
+<option value="" >Enter train number</option>
+<option value="" >6</option>
+<option value="" >12</option>
+<option value="" >13</option>
+<option value="" >14</option>
+<option value="" >15</option>
+<option value="" >16</option>
+<option value="" >17</option>
+<option value="" >18</option>
+<option value="" >19</option>
+<option value="" >20</option>
+<option value="" >21</option>
+<option value="" >22</option> 
+<option value="" >23</option>
+</select>
+<br><br>
+Enter Class: <select name="class" required width="200" style=" width: 200px">
+<option value="">Enter the class</option>
+<option value="" >AC1</option>
+<option value="" >AC2</option>
+<option value="" >AC3</option>
+<option value="" >EC</option>
+<option value="" >CC</option>
+<option value="" >SL</option>
+</select>
+<br><br>
 No. of Seats: <input type="text" name="nos" required><br><br>
 <input type="submit" value="Proceed with Booking"><br><br>
 </form>
